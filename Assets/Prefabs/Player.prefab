@@ -150,11 +150,18 @@ MonoBehaviour:
   whatIsGround:
     serializedVersion: 2
     m_Bits: 256
-  platform: {fileID: 0}
+  wallHopDirection: {x: 1, y: 0.5}
+  wallJumpDirection: {x: 1, y: 2}
   speed: 10
   jumpForce: 16
   groundCheckRadius: 0.3
   wallCheckDistance: 0.4
+  wallSlidingSpeed: 0
+  movementForceInAir: 50
+  airDragMultiplier: 0.95
+  variableJumpHeightMultiplier: 0.5
+  wallHopForce: 10
+  wallJumpForce: 20
 --- !u!95 &2615027829604146083
 Animator:
   serializedVersion: 3
